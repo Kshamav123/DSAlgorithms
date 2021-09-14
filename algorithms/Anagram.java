@@ -10,7 +10,8 @@ public class Anagram {
 	        boolean status = true;  
 	        if (s1.length() != s2.length()) {  
 	            status = false;  
-	        } else {  
+	        } else { 
+	         
 	            char[] ArrayS1 = s1.toLowerCase().toCharArray();  
 	            char[] ArrayS2 = s2.toLowerCase().toCharArray();  
 	            Arrays.sort(ArrayS1);  
